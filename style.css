@@ -407,3 +407,7 @@ html[lang="hy"] .section-eyebrow{letter-spacing:.08em}
   html[lang="hy"] .hero-name{font-size:1.9rem}
   html[lang="hy"] .brand{font-size:.9rem}
 }
+html[lang="hy"] .stat span{letter-spacing:0;font-size:.72rem;overflow-wrap:normal}
+@media (max-width:380px){
+  html[lang="hy"] .stat span{overflow-wrap:break-word}
+}
